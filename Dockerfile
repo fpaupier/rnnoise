@@ -1,6 +1,6 @@
 # TODO: FPR: Consider an alpine image
 # TODO: FPR: Add label describing intent of this image
-FROM ubuntu:20.04
+FROM ubuntu:18.04
 
 # Required to avoid interaction while doing apt udpate
 ENV DEBIAN_FRONTEND=noninteractive
